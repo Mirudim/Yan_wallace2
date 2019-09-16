@@ -1,0 +1,27 @@
+<section class="container">
+    <table *ngIf="usuarios | async as users" class="table">
+        <tr>
+            <th> ID </th>
+            <th> Nome </th>
+            <th> E-mail </th>
+            <th> CEP </th>
+            <th> Endereço </th>
+            <th> Bairro </th>
+            <th> Cidade </th>
+            <th> UF </th>
+        </tr>
+        <tr *ngFor="let u of users">
+            <td>{{u.key}}</td>
+            <td>{{u.nome}}</td>
+            <td>{{u.email}}</td> 
+            <td>{{u.endereco.cep}}</td> 
+            <td>{{u.endereco.logradouro}}</td> 
+            <td>{{u.endereco.bairro}}</td> 
+            <td>{{u.endereco.localidade}}</td> 
+            <td>{{u.endereco.uf}}</td>
+            <td (click) = "editar(u)">/</td>
+            <td (click) = "apagar(u)">x</td> 
+ 
+        </tr>
+    </table>
+</section>

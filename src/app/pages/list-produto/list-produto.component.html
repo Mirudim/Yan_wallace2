@@ -1,0 +1,23 @@
+<section class="container">
+    <table *ngIf="produtos | async as user" class="table">
+        <tr>
+            <th> ID </th>
+            <th> Nome </th>
+            <th> Descrição </th>
+            <th> Quantidade </th>
+            <th> valor </th>
+            <th> Ativo </th>
+        </tr>
+        <tr *ngFor="let p of user">
+            <td>{{p.key}}</td>
+            <td>{{p.nome}}</td>
+            <td>{{p.descricao}}</td>
+            <td>{{p.quant}}</td>
+            <td>{{p.valor}}</td>
+            <td>{{p.ativo}}</td>
+            <td (click) = "editar(p)">/</td>
+            <td (click) = "apagar(p)">x</td>
+
+        </tr>
+    </table>
+</section>

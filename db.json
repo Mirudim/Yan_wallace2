@@ -1,0 +1,90 @@
+{
+  "produtos": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "ativo": true,
+      "nome": "GU",
+      "descricao": "GU",
+      "quant": 12,
+      "valor": 123,
+      "id": 2
+    },
+    {
+      "ativo": true,
+      "nome": "chaveiro",
+      "descricao": "para sua chve",
+      "quant": 2,
+      "valor": 123,
+      "id": 3
+    },
+    {
+      "ativo": null,
+      "nome": null,
+      "descricao": null,
+      "quant": null,
+      "valor": null,
+      "id": 4
+    },
+    {
+      "ativo": false,
+      "nome": "violão",
+      "descricao": "para tocar",
+      "quant": 50,
+      "valor": 120,
+      "id": 5
+    },
+    {
+      "ativo": true,
+      "nome": "carro",
+      "descricao": "motor",
+      "quant": 2,
+      "valor": 500,
+      "id": 6
+    },
+    {
+      "ativo": true,
+      "nome": "prego",
+      "descricao": "furar",
+      "quant": 80,
+      "valor": 500,
+      "id": 7
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "usuarios": [
+    {
+      "id": 1,
+      "nome": "Ana",
+      "email": "ana@gmail.com",
+      "pws": "11111"
+    },
+    {
+      "id": 2,
+      "nome": "Pedro",
+      "email": "pedro@gmail.com",
+      "pws": "22222"
+    },
+    {
+      "nome": "gugu",
+      "email": "gustavomaximiano1939@gmail.com",
+      "pws": "123456",
+      "id": 3
+    },
+    {
+      "nome": "gustavo",
+      "email": "gu",
+      "pws": "123456",
+      "id": 4
+    }
+  ]
+}
